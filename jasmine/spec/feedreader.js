@@ -133,7 +133,6 @@ $(function() {
          */
          it('loads a new different feed when required', function(done){
             expect(feed0).not.toEqual(feed1);
-            done();
          });
     })
 
